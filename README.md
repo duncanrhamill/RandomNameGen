@@ -14,6 +14,6 @@ string secondName = nameGen.Generate(Sex.Female, 2, true); // generate a female 
 string thridName = nameGen.Generate(Sex.Female); // a female name with no middle names
 
 List<string> Names = nameGen.RandomNames(100, 2); // generate 100 random names with up to two middle names
-List<string> Boys = nameGen.RandomNames(100, 0, Sex.Male) // generate 100 random boys names
-List<string> Girls = nameGen.RandomNames(100, 2, Sex.Female, true) // 100 girls names with intials
+List<string> Boys = nameGen.RandomNames(100, 0, Sex.Male); // generate 100 random boys names
+List<string> Girls = nameGen.RandomNames(100, 2, Sex.Female, true); // 100 girls names with intials
 ```
